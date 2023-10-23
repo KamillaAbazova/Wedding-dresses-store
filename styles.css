@@ -1,0 +1,367 @@
+#myVideo {
+    width: 100%;
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.item {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Gilda Display', serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.item:hover {
+    color: #d19154;
+}
+.first {
+    margin-right: auto;
+    color: #d19154;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.store {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.slogan {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.bride {
+    width: 40%;
+}
+.perfect {
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Gilda Display', serif;
+    align-self: center;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.dress {
+    width: 30%;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.studio {
+    font-family: 'Gilda Display', serif;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+.par {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.best {
+    color: #d19154;
+    font-family: 'Alex Brush', cursive;
+    align-self: flex-end;
+    font-size: 50px;
+}
+.about-new {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    color: #d19154;
+    font-family: 'Alex Brush', cursive;
+    align-self: flex-end;
+    font-size: 50px;
+    margin-right: 200px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h2:hover {
+    color: #B89D89;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    background-color: #CFA692;
+    margin: 20px;
+    padding: 10px;
+    flex:1;
+}
+.heading:hover {
+    background-color: #B89D89;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+h3, img, .order {
+    align-self: center;
+}
+h3 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive;
+}
+.list {
+    background-color: #E5DACA;
+    color: black;
+    font-size: 20px;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    color: #d19154;
+    font-family: 'Alex Brush', cursive;
+    font-size: 50px;
+}
+.price {
+    align-self: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Gilda Display', serif;
+    font-weight: bolder;
+}
+.cta {
+    background-color: black;
+    color: #d19154;
+    font-size: 30px;
+    font-family: 'Gilda Display', serif;
+    border-radius: 50px;
+    padding: 20px;
+}
+.cta:hover {
+    background-color: #d19154;
+    color: black;
+}
+.second {
+    flex: 1;
+}
+.our {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.bridal {
+    color: #d19154;
+    font-weight: bolder;
+}
+.story {
+    display: flex;
+    justify-content: space-around;
+}
+.des {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.history {
+    font-family: 'Gilda Display', serif;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+form {
+    color: white;
+    padding: 20px;
+}
+.name {
+    padding: 10px;
+    font-size: 20px;
+}
+.make {
+    padding: 20px;
+    
+}
+.btn {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Gilda Display', serif;
+    padding: 20px;
+    font-weight: bolder;
+}
+.btn:hover {
+    background-color: #d19154;
+}
+.phone {
+    color: white;
+    font-size: 30px;
+    font-family: 'Gilda Display', serif;
+    text-decoration: none;
+}
+.phone:hover {
+    color: #d19154;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-self: flex-start; 
+}
+table {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+th, td {
+    border: 1px solid;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.size {
+    color: #d19154;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+}
+.hours {
+    color: white;
+    font-size: 20px;
+}
+.open {
+    color: white;
+}
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+@media all and (max-width:800px) {
+    #myVideo {
+        width: 100%;
+    }
+    .bride {
+        width: 50%;
+    }
+    .dress {
+        width: 40%;
+    }
+    .nav {
+        flex-direction: column;
+        padding: 0;
+    }
+    .store {
+        font-size: 30px;
+        justify-content: center;
+    }
+    
+    .perfect {
+        font-size: 20px;
+        padding: 0;
+    }
+    .best {
+        font-size: 25px;
+        align-self: center;
+    }
+    .info {
+        flex-direction: column;
+    }
+    .studio {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    .about {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .collection {
+        font-size: 25px;
+    }
+    
+    th, td {
+        font-size: 15px;
+        padding: 0;
+    }
+    .size {
+        font-size: 20px;
+        padding: 0;
+    }
+    .story {
+        flex-direction: column;
+    }
+    .gates {
+        width: 100%;
+    }
+    .our {
+        font-size: 30px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .phone {
+        font-size: 20px;
+    }
+    iframe {
+        width: 100%;
+    }
+    body {
+        background-color: #282A3A;
+    }
+}
+
+@media all and (max-width:500px) {
+    iframe {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .gates {
+        width: 100%;
+    }
+    .first {
+        font-size: 40px;
+    }
+    th, td {
+        font-size: 12px;
+        padding: 0;
+    }
+    .size {
+        font-size: 17px;
+        padding: 0;
+    }
+    .our {
+        font-size: 28px;
+    }
+    #myVideo {
+        width: 100%;
+    }
+    
+}
